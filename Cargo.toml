@@ -16,3 +16,7 @@ description = "A blazingly fast pixel art program with non-square pixel support"
 readme = "README.md"
 repository = "https://github.com/LilyIsTrans/Hexil"
 publish = false
+edition = "2021"
+
+[workspace.lints.rust]
+unsafe-op-in-unsafe-fn = "forbid"
