@@ -1,3 +1,7 @@
+use hexil_render;
+
 fn main() {
-	println!("Hello, world!");
+	let context = hexil_render::VKContext::new(hexil_render::PowerProfile::HighPower);
+
+	println!("{:?}", context);
 }
