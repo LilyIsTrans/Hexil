@@ -1,5 +1,5 @@
 [package]
-name = "hexil"
+name = "hexil-render"
 version.workspace = true
 authors.workspace = true
 description.workspace = true
@@ -7,6 +7,9 @@ readme.workspace = true
 repository.workspace = true
 publish.workspace = true
 edition.workspace = true
+
+[dependencies]
+vulkano = "0.34.1"
 
 [lints]
 workspace = true
