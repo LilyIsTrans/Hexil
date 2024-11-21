@@ -12,7 +12,11 @@ edition.workspace = true
 workspace = true
 
 [dependencies]
-winit = "0.30.5"
+anyhow = "1.0.93"
 hexil-render = {path = "../hexil-render"}
-smithay-client-toolkit = "0.19.2"
+log = { version = "0.4.22", features = ["kv", "kv_serde"] }
 raw-window-handle = "0.6.2"
+serde = { version = "1.0.215", features = ["derive"] }
+smithay-client-toolkit = "0.19.2"
+structured-logger = "1.0.3"
+wayland-backend = { version = "0.3.7", features = ["client_system", "rwh_06", "log"] }
