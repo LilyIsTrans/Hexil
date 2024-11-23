@@ -310,6 +310,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "hexil-render",
+ "hexil-window",
  "log",
  "raw-window-handle 0.6.2",
  "serde",
@@ -324,6 +325,18 @@ version = "0.1.0"
 dependencies = [
  "thiserror 2.0.3",
  "vulkano",
+]
+
+[[package]]
+name = "hexil-window"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "log",
+ "raw-window-handle 0.6.2",
+ "serde",
+ "smithay-client-toolkit",
+ "wayland-backend",
 ]
 
 [[package]]

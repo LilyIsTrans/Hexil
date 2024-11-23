@@ -2,7 +2,7 @@
 
 
 members = [
-  "hexil", "hexil-render",
+  "hexil", "hexil-render", "hexil-window",
   
 ]
 
